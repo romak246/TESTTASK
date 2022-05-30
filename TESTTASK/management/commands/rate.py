@@ -71,7 +71,7 @@ class Command(BaseCommand):
             for query in currency_names:
                 if base == query:
                     continue
-                print( query[0], base[0])
+                print(query[0], base[0])
                 currency_rate(base[0], query[0], today)
 
 
